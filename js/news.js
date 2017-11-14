@@ -141,5 +141,5 @@ function showNews() {
             }
         });
     });
-}
+}         
 showNews();
