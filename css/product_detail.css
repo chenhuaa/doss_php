@@ -1,0 +1,268 @@
+.h2, h3, b, p {
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: auto;
+    height: 56px;
+    margin: 0 auto;
+    padding-top: 26px;
+    position: relative;
+    z-index: 10;
+    border-bottom: 1px solid #ececec;
+}
+
+.content_rodetail {
+    height: auto !important;
+    min-height: 500px;
+    background: #fff;
+    width: auto;
+}
+
+.container:after {
+    clear: both;
+}
+
+.container:before, .container:after {
+    content: " ";
+    display: table;
+    line-height: 0;
+}
+
+/***产品头部栏**/
+.nav-bar {
+    margin-top: 15px;
+    position: relative;
+    height: 50px;
+    color: #6D6D6D;
+    background: none repeat scroll 0 0 #FFF;
+}
+
+.hd {
+    border-bottom: 1px solid #EDEDED;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.container {
+    width: 1040px;
+    margin: 0 auto;
+}
+
+.nav-bar .title {
+    float: left;
+    margin: 10px 0 0;
+}
+
+.nav-bar .title h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #333;
+}
+
+.nav-bar .nav {
+    float: right;
+    margin: 10px 25px 0 0;
+    width: auto;
+    height: auto;
+}
+
+.nav-bar .nav .nav-switch {
+    margin-right: 10px;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 14px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #FFF;
+    border: 1px solid #FF4A00;
+    color: #FF4A00;
+    padding: 0;
+    width: 148px;
+}
+
+.btn-small {
+    height: 28px;
+    line-height: 28px;
+    width: 100px;
+    font-size: 12px;
+}
+
+.btn-primary {
+    background-color: #F00;
+    border-color: #F00;
+    color: #FFF;
+}
+
+.btn-hui {
+    background-color: #BBB;
+    border-color: #BBB;
+    color: #fff;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary.active, .btn-primary:active {
+    color: #FFF;
+    border-color: #F00;
+    background-color: #F00;
+}
+
+.btn:hover, .btn:focus {
+    color: #FFF;
+    outline: 0 none;
+    text-decoration: none;
+    background-color: #F00;
+}
+
+.nav-switch .tab-active {
+    color: #F00;
+    cursor: default;
+}
+
+.nav-switch .tab {
+    font-size: 14px;
+}
+
+.nav-switch .tab-active {
+    color: #EE330A;
+    cursor: default;
+}
+
+.nav-switch .separator {
+    margin: 0 5px;
+    color: #F3F3F3;
+}
+
+.nav-bar .separator {
+    margin: 0 7px;
+    color: #434A54;
+}
+
+.nav-switch .tab {
+    font-size: 14px;
+}
+
+.container > .rt {
+    margin: 0 20px 0 0;
+}
+
+.J_fixNavbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    height: 50px;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+}
+
+.J_fixNavbar .nav-switch .separator {
+    color: #646464;
+}
+
+.J_fixNavbar .nav-bar {
+    margin-top: 0;
+    background: none repeat scroll 0 0 transparent;
+}
+
+.J_fixNavbar .hd {
+    border: 0 none;
+}
+
+.J_fixNavbar .nav .btn {
+    border: 1px solid #F00;
+    color: #fff;
+    background-color: transparent;
+}
+
+.J_fixNavbar .nav-bar .title h2 {
+    color: #BEC2C6;
+}
+
+.J_fixNavbar .nav-switch .tab {
+    color: #BEC2C6;
+}
+
+.J_fixNavbar .nav-switch .tab-active {
+    color: #F00;
+}
+.box>div{
+    display: none;
+}
+.box>div.active{
+    display: block;
+}
+.box>div img{
+    display: block;
+    margin: 0 auto;
+}
+.gs {
+    text-align: center;
+}
+
+.cs {
+    width: 1040px;
+    margin: 0 auto;
+}
+
+.cs table {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.cs td {
+    font-size: 16px;
+}
+
+#scrolltop {
+    position: fixed;
+    bottom: 100px;
+    display: none;
+    margin: -30px 0 0 2px;
+    width: 40px;
+    background: none repeat scroll 0 0 #F4F4F4;
+    border: 1px solid #CDCDCD;
+    /*    border-width: 0 1px 1px;
+        border-style: none solid solid;
+        border-color: -moz-use-text-color #CDCDCD #CDCDCD;*/
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#scrolltop a {
+    display: block;
+    width: 30px;
+    height: 24px;
+    padding: 3px 5px;
+    line-height: 12px;
+    text-align: center;
+    color: #787878;
+    text-decoration: none;
+    background: url(../images/scrolltop.png) no-repeat scroll 0 0 transparent;
+    border-top: 1px solid #CDCDCD;
+}
+
+#scrolltop a.scrolltopa:hover {
+    background-position: -40px 0 !important;
+}
+
+#scrolltop a b {
+    visibility: hidden;
+    font-weight: normal;
+}

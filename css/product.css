@@ -1,0 +1,122 @@
+/**************header***************/
+.header {
+    width: auto;
+    /*height: 645px;*/
+    margin: 0 auto;
+    position: relative;
+}
+
+.top1 {
+    width: auto;
+    height: 56px;
+    margin: 0 auto;
+    padding-top: 26px;
+    position: relative;
+    z-index: 9;
+    border-bottom: 1px solid #ececec;
+}
+.slider{
+    height: 560px;
+}
+.slider .imgs li{
+    height: 560px;
+}
+/*********section**********/
+.prs {
+    height: auto;
+    overflow: hidden;
+}
+
+.prs ul li {
+    width: 333px;
+    height: 425px;
+    margin-top: 30px;
+    padding: 0 9px 0 9px;
+    float: left;
+}
+
+.pr-box {
+    height: 423px;
+    border: solid 1px #e8e8e8;
+}
+
+.pr-img img {
+    width: 330px;
+    height: 220px;
+}
+
+.pr-name, .pr-pro, .pr-price, .pr-bts {
+    width: 310px;
+}
+
+.pr-name {
+    margin: 15px auto 0;
+    font-size: 18px;
+    color: #484848;
+}
+
+.pr-pro {
+    height: 60px;
+    margin: 5px auto 0;
+    font-size: 14px;
+    color: #757575;
+    overflow: hidden;
+}
+
+.pr-price {
+    height: auto;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #757575;
+}
+
+.pr-price span {
+    font-size: 24px;
+    color: #ff0000;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.pr-bts {
+    height: 28px;
+    margin: 15px auto 0;
+}
+
+.pr-bts a {
+    width: 118px;
+    height: 26px;
+    border: solid 1px #231915;
+    display: block;
+    font-size: 14px;
+    border-radius: 18px;
+}
+
+.bt-more, .bt-buy {
+    width: 120px;
+    height: 28px;
+    float: left;
+    text-align: center;
+    line-height: 28px;
+}
+
+.bt-more a {
+    color: #fff;
+    background: #231915;
+}
+
+.bt-more a:hover {
+    color: #fff;
+    background: #f00;
+}
+
+.bt-buy {
+    margin-left: 15px;
+}
+
+.bt-buy a {
+    color: #231915;
+}
+
+.bt-buy a:hover {
+    color: #f00;
+    background: #f6f6f6;
+}

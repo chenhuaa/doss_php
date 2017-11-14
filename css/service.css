@@ -1,0 +1,350 @@
+#header {
+    width: auto;
+    height: 56px;
+    margin: 0 auto;
+    padding-top: 26px;
+    position: relative;
+    z-index: 10;
+    border-bottom: 1px solid #ececec;
+}
+
+.fw_banner {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    background: url(../images/service/bg.jpg) 50% 0 no-repeat;
+}
+
+.services-box {
+    width: 100%;
+    top: 200px;
+    position: absolute;
+    left: 0;
+}
+
+.services {
+    width: 1015px;
+    height: 160px;
+    margin: 0 auto;
+}
+
+.ser {
+    float: left;
+    margin-right: 7px;
+}
+
+.ser.rt {
+    margin-right: 0;
+}
+
+.ser-img {
+    width: 197px;
+    height: 120px;
+}
+
+.ser-img img {
+    transition: all 1.2s ease-out 0s;
+}
+
+.ser-name {
+    color: #323232;
+    font-size: 14px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.content {
+    width: 100%;
+}
+#content>div{
+    display: none;
+}
+#content>.current{
+    display: block;
+}
+.qa-box {
+    width: 1000px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 60px 0 200px 0;
+}
+
+.qa-title {
+    color: #231915;
+    font-size: 28px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.qa-title-s {
+    color: #7d7d7d;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+.all-qas {
+    height: 65px;
+    margin-top: 20px;
+}
+
+.all-q {
+    width: 620px;
+    float: left;
+    margin-left: 48px;
+}
+
+.all-q {
+    width: 141px;
+    height: 23px;
+    line-height: 23px;
+    color: #4F4D4E;
+    background: url(../images/icon-ser1.gif) no-repeat center;
+    display: block;
+    float: left;
+    padding-left: 16px;
+    margin: 21px 5px 0 0;
+}
+
+.qs {
+    float: right;
+    line-height: 36px;
+    padding-left: 20px;
+    margin-top: 29px;
+}
+
+.qa-con {
+    margin-top: 50px;
+}
+
+.support5_2 {
+    width: 100%;
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+.support5_2 ul li {
+    width: 99.7%;
+    margin-bottom: 20px;
+    background: none repeat scroll 0 0 #FAFAFA;
+    float: left;
+    border: 1px solid #EEE;
+    position: relative;
+}
+
+.support5_3 {
+    margin: 20px 0 15px 12px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.support5_3_1 {
+    float: left;
+    font-size: 14px;
+    margin: 5px 0 0 15px;
+    width: 88%;
+}
+
+.support5_3_2 {
+    float: left;
+    margin: 3px 0 0 10px;
+    width: 20px;
+}
+
+.support5_4 {
+    margin: 15px 0 15px 12px;
+    overflow: hidden;
+    display: none;
+}
+
+.support5_4_1 {
+    float: left;
+    font-size: 14px;
+    margin: 0 0 0 15px;
+    width: 88%;
+    color: #8C8C8C;
+    line-height: 1.7;
+}
+
+.support5_4_2 {
+    float: left;
+    width: 20px;
+    position: absolute;
+    right: 8px;
+    bottom: 15px;
+    display: none;
+}
+
+.service-box {
+    width: 1040px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 20px 0 80px 0;
+}
+
+.service-box-left {
+    width: 255px;
+    float: left;
+    border-right: 1px solid #f7f7f7;
+}
+
+.service-box-left li a {
+    display: block;
+    width: 230px;
+    height: 32px;
+    padding: 20px 0 10px 25px;
+    margin-bottom: 10px;
+    color: #2a2a2a;
+    font-size: 18px;
+}
+
+.service-box-left li a.current, .service-box-left li a:hover {
+    background: #f7f7f7;
+}
+
+.service-box-right {
+    /*height: auto;*/
+    width: 740px;
+    float: right;
+}
+.service-box-right>div{
+    display: none;
+}
+.service-box-right>div.current{
+    display: block;
+}
+.service-box-right .title {
+    height: 45px;
+    width: 100%;
+    border-bottom: 2px solid #EEE;
+}
+
+.service-box-right h3 {
+    margin: 5px 0 0 10px;
+    float: left;
+    color: #686868;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.service-box-right .content {
+    margin: 0 auto;
+    padding-top: 25px;
+    overflow: hidden;
+    height: auto;
+}
+
+.videoList a {
+    width: 220px;
+    height: 190px;
+    position: relative;
+    margin: 0 40px 15px 0;
+    float: left;
+    border-bottom: 1px dotted #ccc;
+    padding-bottom: 30px;
+}
+
+.videoList a.video-rt {
+    margin-right: 0;
+}
+
+.videoPic {
+    width: 220px;
+    height: 165px;
+}
+
+.videoTitle {
+    margin-top: 10px;
+    text-align: center;
+    color: #777;
+}
+
+.playBtn {
+    position: absolute;
+    left: 41%;
+    top: 26%;
+    z-index: 2;
+}
+
+.apps > li {
+    border-bottom: 1px dashed #ccc;
+    overflow: hidden;
+    padding: 10px 0 20px 0;
+    margin-bottom: 15px;
+}
+
+.apps-left {
+    float: left;
+    width: 110px;
+    margin-right: 20px;
+}
+
+.apps-right {
+    float: left;
+    color: #686868;
+    width: 600px;
+    overflow: hidden;
+}
+
+.apps-right-1 {
+    font-size: 16px;
+}
+
+.apps-right-2 {
+    margin: 10px 0 30px 0;
+    font-size: 14px;
+}
+
+.apps-right-31 {
+    min-width: 220px;
+    height: 120px;
+}
+
+.apps-right-32 {
+    margin-left: 20px;
+}
+
+.apps-right-311 {
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    margin-top: 5px;
+}
+
+.apps-right-312 {
+    margin-top: 17px;
+}
+
+.apps-right-313 {
+    width: 100px;
+    line-height: 40px;
+    display: block;
+    background: #F7F7F7;
+    text-align: center;
+    color: #666;
+}
+
+.apps-right-313:hover {
+    background: #444;
+    color: #fff;
+}
+
+.apps-right-314 {
+    color: #777;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.apps-right-315 {
+    width: 100px;
+}
+
+.lf {
+    float: left;
+}

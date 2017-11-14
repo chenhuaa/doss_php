@@ -1,0 +1,19 @@
+/**************header***************/
+.header{
+    width: auto;
+    height: 760px;
+    margin: 0 auto;
+    position: relative;
+}
+.slider{
+    height: 760px;
+}
+.slider .imgs li{
+    height: 760px;
+}
+/*********section**********/
+.banner_s{
+    width: 346px;
+    height: 170px;
+    float: left;
+}

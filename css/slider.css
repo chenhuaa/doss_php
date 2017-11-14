@@ -1,0 +1,34 @@
+.slider {   /*轮播的父级元素样式*/
+	width:100%;
+	max-width: 1920px;
+	margin: 0 auto;
+	position:relative;
+	overflow:hidden;
+}
+.slider .imgs {		/**/
+	position:absolute;
+	top: 0;  left: 0;
+	height:760px;
+}
+.slider .imgs li{
+	float:left;
+	z-index:0;
+}
+.slider .indexs {
+	width: 100%;
+    position:absolute;
+    bottom:20px;
+    text-align:center;
+	z-index:100;
+}
+.slider .indexs li {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    background: url(../images/index/circle_grey.png) no-repeat 0 0 rgba(0, 0, 0, 0);
+    cursor: pointer;
+    margin: 0 8px;
+}
+.slider .indexs li:hover,.slider .indexs li.hover {
+    background: url(../images/index/circle_red.png) repeat 0 0 rgba(0, 0, 0, 0);
+}

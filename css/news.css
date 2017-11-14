@@ -1,0 +1,259 @@
+#header {
+    width: auto;
+    height: 56px;
+    margin: 0 auto;
+    padding-top: 26px;
+    position: relative;
+    z-index: 10;
+    border-bottom: 1px solid #ececec;
+}
+
+.news_c {
+    width: 1040px;
+    /*height: auto;*/
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 40px 0 80px 0;
+}
+
+.news_c .nav {
+    height: auto;
+    padding: 20px 0 20px 0;
+    overflow: hidden;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.news_c .nav li {
+    padding-right: 25px;
+    float: left;
+}
+
+.news_c .nav li a {
+    font-size: 16px;
+}
+
+.news_c .nav li a.active, .news_c .nav li a:hover {
+    color: #f00;
+}
+
+.news {
+    width: 100%;
+    color: #444;
+    overflow: hidden;
+}
+
+.news ul li {
+    width: 100%;
+    height: 330px;
+    padding: 30px 0 30px 0;
+    border-bottom: dotted 1px #ccc;
+    overflow: hidden;
+}
+
+.news1 {
+    float: left;
+    width: 445px;
+    height: 320px;
+}
+
+.news1 img {
+    width: 445px;
+    height: 320px;
+}
+
+.news2 {
+    float: right;
+    width: 560px;
+}
+
+.news2_1 a {
+    font-size: 20px;
+    color: #181717;
+}
+
+.news2_1 a:hover {
+    color: #F00;
+}
+
+.news2_2 {
+    font-size: 12px;
+    color: #b1b1b1;
+    margin: 5px 0 0 0;
+}
+
+.news2_3 {
+    font-size: 14px;
+    color: #7e7e7e;
+    margin: 20px 0 25px 0;
+    height: 140px;
+    overflow: hidden;
+}
+
+.news2_4 {
+    margin-top: 60px;
+    height: 40px;
+}
+
+.news2_4 a {
+    display: block;
+    width: 135px;
+    height: 40px;
+    border: 1px solid #ccc;
+    line-height: 40px;
+    text-align: center;
+    color: #6f6f6f;
+    font-size: 14px;
+    border-radius: 20px;
+}
+
+.news2_4 a:hover {
+    color: #f00;
+    background: #f6f6f6;
+}
+
+.pages {
+    padding: 20px 0 20px 0;
+    height: auto;
+    overflow: hidden;
+}
+
+.pages ul li {
+    width: auto;
+    height: 36px;
+    line-height: 18px;
+    padding-left: 5px;
+    float: left;
+}
+
+.pages ul li a {
+    width: auto;
+    height: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding: 9px 15px 0;
+    font-size: 14px;
+    display: block;
+    background: #ECECEC;
+    color: #777;
+}
+
+.pages ul li a.active, .pages ul li a:hover {
+    color: #FFF;
+    background: #231915;
+}
+
+.pages ul li a.disabled:hover {
+    color: #777;
+    background: #ECECEC;
+    cursor: default;
+}
+
+.news1_1 {
+    width: 100%;
+    height: auto;
+    margin: 15px 0 10px 0;
+    padding: 0;
+    text-align: center;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+.news1_2 {
+    width: 100%;
+    height: 25px;
+    margin: 0;
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+    padding: 0;
+    border-bottom: 1px dotted #CCC;
+}
+
+.news1_3 {
+    width: 100%;
+    height: auto;
+    margin: 10px 0 0 10px;
+    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    color: #444;
+}
+
+.news1_3 > p {
+    word-wrap: break-word;
+    color: #333;
+    font: 16px/30px 'Microsoft Yahei';
+    margin: 14px 0;
+    text-indent: 0.8em;
+}
+
+.news1_3 > p.news_intro {
+    text-align: center;
+}
+
+.news1_3 a {
+    color: #1f4f88;
+}
+
+.news1_3 img {
+    border: #e5e5e5 1px solid;
+    vertical-align: middle;
+    width: 640px;
+}
+
+#content-first-img {
+    cursor: pointer;
+}
+
+.news1_9 {
+    width: 100%;
+    /*height: auto;*/
+    margin: 15px 0 10px 0;
+    padding: 0;
+    text-align: center;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+.news1_10 {
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+    border-bottom: 1px dotted #CCC;
+}
+
+.news1_11 {
+    width: 100%;
+    line-height: 24px;
+    font-size: 14px;
+    color: #444;
+}
+
+.table1 {
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+}
+.table1 th,.table1 td{
+    font-size: 14px;
+    border: #000000 1px solid;
+}
+.table1 th {
+    line-height: 50px;
+    color: #ff0000;
+}
+.table1 tr td{
+    height: 160px;
+}
+.table1 td a{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.table1 td a:hover{
+    color: #f00;
+}
+
+

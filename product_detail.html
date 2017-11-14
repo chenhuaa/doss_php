@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>DOSS - 产品详情</title>
+    <link rel="icon" href="images/logo_icon.png"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/product_detail.css"/>
+</head>
+<body>
+<div id="header" class="header"></div>
+<section class="content_rodetail">
+    <div class="nav-bar-con J_nav-bar-con" id="title-top">
+        <div class="hd nav-bar container">
+            <div class="title">
+                <h2></h2>
+            </div>
+            <div class="nav">
+                <span class="nav-switch">
+                     <a href="#gs" class="tab tab-active">概述</a><span class="separator">|</span>
+                     <a class="tab" href="#tk">图库</a><span class="separator">|</span>
+                     <a class="tab" href="#cs">参数</a><span class="separator">|</span>
+                </span>
+                <a class="btn btn-primary btn-small" href="#" target="_blank">购买</a>
+                <a class="btn btn-primary btn-small" href="javascript:history.go(-1);">返回</a>
+            </div>
+            <div class="rt">
+                <div class="prsx prsx1" id="s">
+                    <form id="formPro">
+                        <input name="keywords" id="keywords" placeholder="产品筛选" ondblclick="return OnCheckAndSubmit()">
+                        <input class="button" onclick="return OnCheckAndSubmit()" type="submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <div id="gs" class="gs active"></div>
+        <div id="tk" class="tk"></div>
+        <div id="cs" class="cs">
+            <table cellspacing="0" cellpadding="2" border="1">
+                <tbody>
+                <!--<tr>
+                    <td>型号</td>
+                    <td>DS-1189S</td>
+                </tr>
+                <tr>
+                    <td>输出功率</td>
+                    <td>1.5W</td>
+                </tr>
+                <tr>
+                    <td>蓝牙版本</td>
+                    <td>v4.0+EDR</td>
+                </tr>
+                <tr>
+                    <td>音响电池</td>
+                    <td>3.7v/750mAh</td>
+                </tr>
+                <tr>
+                    <td>充电输入</td>
+                    <td>5.0v/750mA</td>
+                </tr>
+                <tr>
+                    <td>产品尺寸</td>
+                    <td>62*62*72.5m</td>
+                </tr>-->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</section>
+<div id="footer"></div>
+<div id="scrolltop">
+    <span><a title="回到顶部" onclick="window.scrollTo(0,0)" class="scrolltopa"><b>回到顶部</b></a></span>
+</div>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/product_detail.js"></script>
+</body>
+</html>

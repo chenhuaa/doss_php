@@ -1,0 +1,76 @@
+#header {
+    width: auto;
+    height: 56px;
+    margin: 0 auto;
+    padding-top: 26px;
+    position: relative;
+    z-index: 10;
+    border-bottom: 1px solid #ececec;
+}
+.news_shop {
+    width: 100%;
+    height: 730px;
+    background: url('../images/shop/store.jpg') no-repeat center;
+}
+.shop {
+    width: 1040px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 110px 0 180px 0;
+}
+.shop1 {
+    color: #231915;
+    font-size: 28px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.shop2 {
+    padding-top: 150px;
+    height: auto;
+    min-height: 300px;
+}
+.shop2s {
+    height: auto;
+    overflow: hidden;
+}
+.shop2s ul li {
+    float: left;
+    padding: 0 40px 30px 0;
+    height: 180px;
+}
+.shop2s ul li.hover {
+    padding-right: 0;
+}
+.shop2_1 {
+    width: 220px;
+    height: 145px;
+}
+.shop2_1 img {
+    width: 220px;
+    height: 145px;
+}
+.shop2_2 {
+    height: 15px;
+    line-height: 15px;
+    margin-top: 17px;
+    text-align: center;
+}
+.shop2_2 a {
+    color: #333;
+    font-size: 14px;
+}
+.shop2_2 a:hover {
+    color: #F00;
+}
+.names {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.blank_space {
+    margin-top: 50px;
+    color: #777;
+    font-size: 14px;
+}
